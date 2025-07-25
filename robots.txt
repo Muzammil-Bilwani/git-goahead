@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://gitgoahead.muzammilbilwani.com/sitemap.xml
+
+# Crawl-delay for better server performance
+Crawl-delay: 1
+
+# Block access to sensitive files
+Disallow: /*.json$
+Disallow: /firebase.json

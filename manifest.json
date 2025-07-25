@@ -1,0 +1,20 @@
+{
+  "name": "Git Tutorial: Complete Guide to Version Control",
+  "short_name": "Git Tutorial",
+  "description": "Master Git version control with our comprehensive tutorial. Learn essential Git commands, branching, merging, and collaboration workflows.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#FFB000",
+  "orientation": "portrait-primary",
+  "categories": ["education", "developer tools", "programming"],
+  "lang": "en",
+  "icons": [
+    {
+      "src": "favi.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon",
+      "purpose": "any maskable"
+    }
+  ]
+}
