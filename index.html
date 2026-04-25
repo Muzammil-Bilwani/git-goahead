@@ -10,21 +10,18 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
 
     <!-- Primary Meta Tags -->
-    <title>
-      Git Tutorial: Complete Guide to Version Control for Beginners | Learn Git
-      Commands
-    </title>
+    <title>Git Tutorial: Complete Guide to Version Control for Beginners | Git Go Ahead</title>
     <meta
       name="title"
-      content="Git Tutorial: Complete Guide to Version Control for Beginners | Learn Git Commands"
+      content="Git Tutorial: Complete Guide to Version Control for Beginners | Git Go Ahead"
     />
     <meta
       name="description"
-      content="Master Git version control with our comprehensive tutorial. Learn essential Git commands, branching, merging, and collaboration workflows. Step-by-step guide for developers of all levels."
+      content="Master Git version control with our comprehensive, interactive tutorial. Learn essential Git commands, branching strategies, merge conflict resolution, and team collaboration workflows. Free step-by-step guide for developers of all levels."
     />
     <meta
       name="keywords"
-      content="git tutorial, version control, git commands, git branching, git merge, learn git, git beginner guide, software development, coding tutorial, github"
+      content="git tutorial, git commands, version control, git branching, git merge, git rebase, git stash, gitignore, learn git, git beginner guide, git cheat sheet, github tutorial, git workflow, software development, coding tutorial, git init, git clone, git commit, git push, git pull"
     />
     <meta name="author" content="Muzammil Bilwani" />
     <meta
@@ -33,9 +30,13 @@
     />
     <meta name="language" content="English" />
     <meta name="revisit-after" content="7 days" />
+    <meta name="category" content="Programming, Developer Tools, Tutorial" />
+    <meta name="classification" content="Education" />
+    <meta name="rating" content="General" />
+    <meta name="coverage" content="Worldwide" />
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="article" />
     <meta property="og:url" content="https://gitgoahead.muzammilbilwani.com/" />
     <meta
       property="og:title"
@@ -43,7 +44,7 @@
     />
     <meta
       property="og:description"
-      content="Master Git version control with our comprehensive tutorial. Learn essential Git commands, branching, merging, and collaboration workflows."
+      content="Master Git version control with our comprehensive tutorial. Learn essential Git commands, branching, merging, and collaboration workflows used by professional developers worldwide."
     />
     <meta
       property="og:image"
@@ -51,35 +52,50 @@
     />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:site_name" content="Git Tutorial Guide" />
+    <meta property="og:image:alt" content="Git Tutorial: Complete Guide to Version Control" />
+    <meta property="og:site_name" content="Git Go Ahead" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="article:author" content="Muzammil Bilwani" />
+    <meta property="article:published_time" content="2024-01-01T00:00:00Z" />
+    <meta property="article:modified_time" content="2026-04-25T00:00:00Z" />
+    <meta property="article:section" content="Programming Tutorial" />
+    <meta property="article:tag" content="git" />
+    <meta property="article:tag" content="version control" />
+    <meta property="article:tag" content="tutorial" />
 
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta
-      property="twitter:url"
+      name="twitter:url"
       content="https://gitgoahead.muzammilbilwani.com/"
     />
     <meta
-      property="twitter:title"
+      name="twitter:title"
       content="Git Tutorial: Complete Guide to Version Control for Beginners"
     />
     <meta
-      property="twitter:description"
+      name="twitter:description"
       content="Master Git version control with our comprehensive tutorial. Learn essential Git commands, branching, merging, and collaboration workflows."
     />
     <meta
-      property="twitter:image"
+      name="twitter:image"
       content="https://gitgoahead.muzammilbilwani.com/img/git-tutorial-preview.png"
     />
-    <meta property="twitter:creator" content="@muzammilbilwani" />
+    <meta name="twitter:creator" content="@muzammilbilwani" />
+    <meta name="twitter:site" content="@muzammilbilwani" />
 
     <!-- Additional SEO Meta Tags -->
-    <meta name="theme-color" content="#FFB000" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="theme-color" content="#0d1117" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-TileColor" content="#0d1117" />
 
     <!-- Canonical URL -->
     <link rel="canonical" href="https://gitgoahead.muzammilbilwani.com/" />
+
+    <!-- Alternate language -->
+    <link rel="alternate" hreflang="en" href="https://gitgoahead.muzammilbilwani.com/" />
 
     <!-- Preconnect for performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -113,39 +129,137 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "TechArticle",
-        "headline": "Git Tutorial: Complete Guide to Version Control for Beginners",
-        "description": "Master Git version control with our comprehensive tutorial. Learn essential Git commands, branching, merging, and collaboration workflows.",
-        "image": "https://gitgoahead.muzammilbilwani.com/img/git-tutorial-preview.png",
-        "author": {
-          "@type": "Person",
-          "name": "Muzammil Bilwani",
-          "url": "https://muzammilbilwani.com"
-        },
-        "publisher": {
-          "@type": "Organization",
-          "name": "Git Tutorial Guide",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://gitgoahead.muzammilbilwani.com/favi.ico"
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://gitgoahead.muzammilbilwani.com/#website",
+            "url": "https://gitgoahead.muzammilbilwani.com/",
+            "name": "Git Go Ahead",
+            "description": "Free, comprehensive Git version control tutorial for developers of all levels.",
+            "publisher": {
+              "@id": "https://gitgoahead.muzammilbilwani.com/#organization"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://gitgoahead.muzammilbilwani.com/#organization",
+            "name": "Git Go Ahead",
+            "url": "https://gitgoahead.muzammilbilwani.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://gitgoahead.muzammilbilwani.com/favi.ico"
+            }
+          },
+          {
+            "@type": "TechArticle",
+            "@id": "https://gitgoahead.muzammilbilwani.com/#article",
+            "headline": "Git Tutorial: Complete Guide to Version Control for Beginners",
+            "description": "Master Git version control with our comprehensive tutorial. Learn essential Git commands, branching, merging, conflict resolution, and collaboration workflows.",
+            "image": "https://gitgoahead.muzammilbilwani.com/img/git-tutorial-preview.png",
+            "author": {
+              "@type": "Person",
+              "name": "Muzammil Bilwani",
+              "url": "https://muzammilbilwani.com"
+            },
+            "publisher": {
+              "@id": "https://gitgoahead.muzammilbilwani.com/#organization"
+            },
+            "datePublished": "2024-01-01",
+            "dateModified": "2026-04-25",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://gitgoahead.muzammilbilwani.com/"
+            },
+            "articleSection": "Programming Tutorial",
+            "keywords": ["git", "version control", "tutorial", "programming", "software development", "git commands", "branching", "merging"],
+            "educationalLevel": "Beginner",
+            "learningResourceType": "Tutorial",
+            "inLanguage": "en-US",
+            "isAccessibleForFree": true
+          },
+          {
+            "@type": "HowTo",
+            "name": "How to Get Started with Git Version Control",
+            "description": "A step-by-step guide to installing Git, creating repositories, committing changes, and collaborating with others.",
+            "step": [
+              {
+                "@type": "HowToStep",
+                "position": 1,
+                "name": "Install Git",
+                "text": "Download and install Git for your operating system from git-scm.com."
+              },
+              {
+                "@type": "HowToStep",
+                "position": 2,
+                "name": "Initialize a Repository",
+                "text": "Navigate to your project folder and run git init to create a new Git repository."
+              },
+              {
+                "@type": "HowToStep",
+                "position": 3,
+                "name": "Stage Your Changes",
+                "text": "Use git add <filename> or git add . to stage files for your next commit."
+              },
+              {
+                "@type": "HowToStep",
+                "position": 4,
+                "name": "Commit Your Changes",
+                "text": "Run git commit -m 'Your message' to save a snapshot of your staged changes."
+              },
+              {
+                "@type": "HowToStep",
+                "position": 5,
+                "name": "Push to Remote",
+                "text": "Use git push origin main to share your changes with a remote repository on GitHub or GitLab."
+              }
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is the difference between Git and GitHub?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Git is a free, open-source version control system that runs locally on your computer. GitHub is a cloud-based hosting platform that stores Git repositories online and adds collaboration features like pull requests, issues, and code review. You can use Git without GitHub, but GitHub requires Git."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is the difference between git pull and git fetch?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "git fetch downloads changes from the remote repository but does NOT merge them into your local branch. git pull is shorthand for git fetch followed by git merge — it downloads AND integrates the changes. Use git fetch when you want to review changes before merging."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do I undo my last git commit without losing changes?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Run git reset --soft HEAD~1 to undo the last commit while keeping your changes staged. Use git reset HEAD~1 to unstage the changes but keep them in your working directory. Avoid git reset --hard if you want to keep your work."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is a pull request in Git?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A pull request (PR) is a feature of platforms like GitHub and GitLab that lets you propose merging changes from one branch into another. It provides a space for code review, discussion, and automated checks before code is merged into the main branch."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Should I use git merge or git rebase?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Use git merge to preserve the full history of both branches — good for shared/public branches. Use git rebase to replay your commits on top of another branch for a cleaner, linear history — good for local feature branches before merging. Never rebase commits that have been pushed to a shared remote branch."
+                }
+              }
+            ]
           }
-        },
-        "datePublished": "2024-01-01",
-        "dateModified": "2025-07-25",
-        "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": "https://gitgoahead.muzammilbilwani.com/"
-        },
-        "articleSection": "Programming Tutorial",
-        "keywords": [
-          "git",
-          "version control",
-          "tutorial",
-          "programming",
-          "software development"
-        ],
-        "educationalLevel": "Beginner",
-        "learningResourceType": "Tutorial"
+        ]
       }
     </script>
   </head>
@@ -171,34 +285,75 @@
 
     <!-- Main content area -->
     <main id="main-content" role="main">
+
       <!-- Hero section -->
-      <section class="scrollblock block-title" role="banner">
-        <h1>Git Tutorial: Complete Guide to Version Control for Beginners</h1>
+      <section class="scrollblock block-title" aria-labelledby="hero-title">
+        <h1 id="hero-title">Git Go Ahead</h1>
         <p class="hero-description">
-          Master Git with our comprehensive, step-by-step tutorial. Learn
-          essential commands, branching strategies, and collaboration workflows
-          used by professional developers worldwide.
+          The free, no-fluff Git reference for developers. From your very first
+          <code>git init</code> to advanced branching strategies — everything
+          you need in one scrollable guide.
+        </p>
+        <p class="hero-byline">
+          Created by
+          <a href="https://muzammilbilwani.com" rel="noopener noreferrer" target="_blank">Muzammil Bilwani</a>
         </p>
         <img
           src="img/arrow.png"
-          alt="Navigate down to start the Git tutorial"
+          alt="Scroll down to begin the Git tutorial"
           width="50"
           height="30"
         />
       </section>
-      <!-- Git Setup Section -->
-      <section id="setup" class="scrollblock block-setup">
-        <h2>Git Installation & Setup</h2>
+
+      <!-- What is Git Section -->
+      <section id="whatsgit" class="scrollblock block-whatsgit" aria-labelledby="whatsgit-title">
+        <h2 id="whatsgit-title">what is git?</h2>
         <p>
-          Get started with Git by downloading and installing it on your
-          operating system. Choose your platform below:
+          <strong>Git</strong> is a free, open-source <strong>distributed version control system</strong>
+          created by Linus Torvalds in 2005. It tracks changes to files over time so you can recall
+          specific versions later, collaborate with others without overwriting each other's work,
+          and confidently experiment knowing you can always roll back.
+        </p>
+        <p>
+          Unlike older centralised systems, every developer has a full copy of the entire
+          project history on their local machine — making Git fast, offline-capable, and resilient.
+        </p>
+
+        <h3>why every developer needs git</h3>
+        <ul>
+          <li><strong>History &amp; accountability</strong> — see who changed what, when, and why</li>
+          <li><strong>Safe experimentation</strong> — branches let you try ideas without breaking working code</li>
+          <li><strong>Collaboration</strong> — merge contributions from dozens of developers simultaneously</li>
+          <li><strong>Disaster recovery</strong> — roll back any file or the entire project to a previous state</li>
+          <li><strong>Industry standard</strong> — required knowledge for virtually every software engineering role</li>
+          <li><strong>CI/CD integration</strong> — the foundation of every modern automated deployment pipeline</li>
+        </ul>
+
+        <div class="info-box">
+          <h4>Git vs GitHub vs GitLab</h4>
+          <p>
+            <strong>Git</strong> is the command-line tool that runs on your machine.
+            <strong>GitHub</strong> and <strong>GitLab</strong> are cloud platforms that host Git
+            repositories and add collaboration features (pull requests, issues, CI/CD). You need
+            Git to use them, but Git works perfectly fine without them.
+          </p>
+        </div>
+      </section>
+
+      <!-- Git Setup Section -->
+      <section id="setup" class="scrollblock block-setup" aria-labelledby="setup-title">
+        <h2 id="setup-title">installation &amp; setup</h2>
+        <p>
+          Download and install Git for your operating system. Git is free and
+          available on all major platforms:
         </p>
         <nav aria-label="Download Git for different platforms">
           <ul>
             <li>
               <a
                 href="https://git-scm.com/download/mac"
-                rel="noopener"
+                rel="noopener noreferrer"
                 target="_blank"
                 >Download Git for macOS</a
               >
@@ -206,7 +361,7 @@
             <li>
               <a
                 href="https://gitforwindows.org/"
-                rel="noopener"
+                rel="noopener noreferrer"
                 target="_blank"
                 >Download Git for Windows</a
               >
@@ -214,571 +369,743 @@
             <li>
               <a
                 href="https://git-scm.com/book/en/Getting-Started-Installing-Git"
-                rel="noopener"
+                rel="noopener noreferrer"
                 target="_blank"
                 >Download Git for Linux</a
               >
             </li>
           </ul>
         </nav>
+
+        <h3>first-time configuration</h3>
+        <p>After installing, tell Git who you are. This info is attached to every commit you make:</p>
+        <div class="code-examples">
+          <code>git config --global user.name "Your Name"</code>
+          <code>git config --global user.email "you@example.com"</code>
+          <code>git config --global init.defaultBranch main</code>
+        </div>
       </section>
 
       <!-- Create Repository Section -->
-      <section id="create" class="scrollblock block-create">
-        <h2>Create a New Git Repository</h2>
+      <section id="create" class="scrollblock block-create" aria-labelledby="create-title">
+        <h2 id="create-title">create a repository</h2>
         <p>
-          Start your version control journey by creating a new Git repository.
-          Navigate to your project directory and initialize Git:
+          A <strong>repository</strong> (repo) is the folder where Git tracks all your project files and history.
+          Navigate to your project directory and run:
         </p>
         <div class="code-block">
           <code>git init</code>
         </div>
         <p>
-          This command creates a new Git repository in your current directory,
-          setting up the necessary files for version control.
+          This creates a hidden <code>.git</code> folder — Git's database for your project.
+          Nothing is tracked yet; you decide which files to include.
         </p>
+
+        <h3>check what git sees</h3>
+        <div class="code-examples">
+          <code>git status</code>
+          <p class="code-description">Your most-used command — shows staged, unstaged, and untracked files</p>
+
+          <code>git status -s</code>
+          <p class="code-description">Short format — compact overview at a glance</p>
+        </div>
+
+        <div class="info-box">
+          <h4>Tip: initialise with a README</h4>
+          <p>
+            On GitHub/GitLab you can tick "Initialise with README" when creating a repo.
+            Locally, just create the file yourself: <code>echo "# My Project" &gt; README.md</code>
+            then commit it as your first change.
+          </p>
+        </div>
+      </section>
+
+      <!-- .gitignore Section -->
+      <section id="gitignore" class="scrollblock block-gitignore" aria-labelledby="gitignore-title">
+        <h2 id="gitignore-title">.gitignore</h2>
+        <p>
+          A <code>.gitignore</code> file tells Git which files and folders to <strong>never track</strong>.
+          Create one at the root of your repository before your first commit.
+        </p>
+        <p>Common things to ignore: compiled binaries, dependency folders, secrets, and OS noise.</p>
+
+        <h3>example .gitignore</h3>
+        <pre># Dependencies
+node_modules/
+vendor/
+
+# Build output
+dist/
+build/
+*.o
+*.class
+
+# Secrets & environment
+.env
+.env.local
+*.pem
+*.key
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor metadata
+.vscode/
+.idea/
+*.swp</pre>
+
+        <div class="code-examples">
+          <code>touch .gitignore</code>
+          <p class="code-description">Create the file at your project root</p>
+
+          <code>git rm --cached &lt;file&gt;</code>
+          <p class="code-description">Stop tracking a file you already committed (then add it to .gitignore)</p>
+        </div>
+
+        <div class="info-box">
+          <h4>gitignore.io</h4>
+          <p>
+            Visit <strong>gitignore.io</strong> (or use the GitHub UI) to auto-generate a
+            <code>.gitignore</code> tailored to your language and tools — Node, Python, Java,
+            macOS, Windows, and hundreds more.
+          </p>
+        </div>
       </section>
 
       <!-- Clone Repository Section -->
-      <section id="checkout" class="scrollblock block-checkout">
-        <h2>Clone an Existing Repository</h2>
+      <section id="checkout" class="scrollblock block-checkout" aria-labelledby="checkout-title">
+        <h2 id="checkout-title">clone a repository</h2>
         <p>
-          To work with an existing Git repository, you can create a local copy
-          using the clone command:
+          To work with an existing repository, clone it to get a full local copy —
+          including all branches and history:
         </p>
         <div class="code-examples">
-          <p><strong>Clone from local path:</strong></p>
-          <code>git clone /path/to/repository</code>
-          <p><strong>Clone from remote server:</strong></p>
-          <code>git clone username@host:/path/to/repository</code>
-          <p><strong>Clone from GitHub/GitLab:</strong></p>
+          <p><strong>Clone from GitHub/GitLab (most common):</strong></p>
           <code>git clone https://github.com/username/repository.git</code>
+
+          <p><strong>Clone into a specific folder name:</strong></p>
+          <code>git clone https://github.com/username/repo.git my-folder</code>
+
+          <p><strong>Clone from a local path:</strong></p>
+          <code>git clone /path/to/repository</code>
+
+          <p><strong>Shallow clone (faster, last commit only):</strong></p>
+          <code>git clone --depth 1 https://github.com/username/repo.git</code>
         </div>
-      </section>
-      <!-- Git Workflow Section -->
-      <section id="trees" class="scrollblock block-trees">
-        <h2>Understanding Git Workflow</h2>
         <p>
-          Git uses a three-tree architecture to manage your code changes
-          effectively:
+          After cloning, the remote is automatically added as <code>origin</code> —
+          so you can <code>git push</code> and <code>git pull</code> right away.
+        </p>
+      </section>
+
+      <!-- Git Workflow Section -->
+      <section id="trees" class="scrollblock block-trees" aria-labelledby="trees-title">
+        <h2 id="trees-title">git's three trees</h2>
+        <p>
+          Git manages your code through three conceptual areas.
+          Understanding this model makes every command click into place:
         </p>
         <ul>
           <li>
-            <strong>Working Directory:</strong> Contains your actual project
-            files
+            <strong>Working Directory:</strong> Your actual project files on disk — where you edit code
           </li>
           <li>
-            <strong>Staging Area (Index):</strong> Temporary area for changes
-            ready to commit
+            <strong>Staging Area (Index):</strong> A preparation zone where you assemble the exact changes that will go into your next commit
           </li>
           <li>
-            <strong>HEAD:</strong> Points to your last commit in the current
-            branch
+            <strong>Repository (HEAD):</strong> The permanent history of commits — every snapshot you've saved with <code>git commit</code>
           </li>
         </ul>
+        <p>
+          The workflow is: <strong>edit</strong> in your working directory →
+          <strong>stage</strong> with <code>git add</code> →
+          <strong>commit</strong> with <code>git commit</code>.
+        </p>
         <img
           src="img/trees.png"
-          alt="Git three-tree architecture diagram showing Working Directory, Index, and HEAD"
+          alt="Diagram of Git's three-tree architecture: Working Directory, Staging Area (Index), and HEAD repository"
           width="600"
           height="300"
+          loading="lazy"
         />
       </section>
 
       <!-- Add and Commit Section -->
-      <section id="add" class="scrollblock block-add">
-        <h2>Stage and Commit Changes</h2>
+      <section id="add" class="scrollblock block-add" aria-labelledby="add-title">
+        <h2 id="add-title">stage &amp; commit</h2>
         <p>
-          Learn the fundamental Git workflow for tracking and saving your code
-          changes:
+          Staging lets you craft precise, logical commits — even if your working directory
+          has multiple unrelated changes in progress.
         </p>
 
-        <h3>Staging Changes</h3>
-        <p>Add files to the staging area (Index) before committing:</p>
+        <h3>staging changes</h3>
         <div class="code-examples">
           <code>git add &lt;filename&gt;</code>
           <p class="code-description">Stage a specific file</p>
 
           <code>git add .</code>
-          <p class="code-description">Stage all changes in current directory</p>
+          <p class="code-description">Stage all changes in the current directory</p>
 
-          <code>git add *</code>
-          <p class="code-description">
-            Stage all files (excluding hidden files)
-          </p>
+          <code>git add -p</code>
+          <p class="code-description">Interactively stage individual hunks — great for keeping commits focused</p>
         </div>
 
-        <h3>Committing Changes</h3>
-        <p>Save your staged changes to the Git history:</p>
-        <code>git commit -m "Your descriptive commit message"</code>
-        <p>
-          <strong>Pro tip:</strong> Write clear, descriptive commit messages
-          that explain what and why you changed something.
-        </p>
-      </section>
-      <!-- Push Changes Section -->
-      <section id="push" class="scrollblock block-remote">
-        <h2>Push Changes to Remote Repository</h2>
-        <p>
-          Share your committed changes with others by pushing to a remote
-          repository:
-        </p>
+        <h3>committing changes</h3>
+        <div class="code-examples">
+          <code>git commit -m "feat: add user authentication"</code>
+          <p class="code-description">Commit staged changes with an inline message</p>
 
-        <h3>Push to Remote Branch</h3>
-        <code>git push origin main</code>
-        <p>
-          Replace <em>main</em> with your target branch name. Modern
-          repositories use 'main' instead of 'master' as the default branch.
-        </p>
-
-        <h3>Connect to Remote Repository</h3>
-        <p>
-          If you haven't connected your local repository to a remote server yet:
-        </p>
-        <code>git remote add origin &lt;repository-url&gt;</code>
-        <p>
-          After adding the remote, you can push your changes to share them with
-          your team.
-        </p>
+          <code>git commit --amend</code>
+          <p class="code-description">Rewrite the last commit (message or staged content) — only before pushing</p>
+        </div>
 
         <div class="pro-tip">
-          <h4>💡 Pro Tips:</h4>
+          <h4>Write commits your future self will thank you for</h4>
           <ul>
-            <li>
-              Always pull latest changes before pushing:
-              <code>git pull origin main</code>
-            </li>
-            <li>
-              Use descriptive branch names for features:
-              <code>feature/user-authentication</code>
-            </li>
-            <li>
-              Push frequently to avoid losing work and enable collaboration
-            </li>
+            <li>Explain the <em>why</em>, not just the <em>what</em> — the diff already shows what changed</li>
+            <li>Use the imperative mood: "Fix bug" not "Fixed bug"</li>
+            <li>Consider the <strong>Conventional Commits</strong> format: <code>feat:</code>, <code>fix:</code>, <code>docs:</code>, <code>chore:</code></li>
+            <li>Keep the subject line under 72 characters</li>
+            <li>Commit early and often — small commits are easier to review and revert</li>
           </ul>
         </div>
       </section>
-      <!-- Branching Section -->
-      <section id="branching" class="scrollblock block-branching">
-        <h2>Git Branching Strategy</h2>
+
+      <!-- Push Changes Section -->
+      <section id="push" class="scrollblock block-remote" aria-labelledby="push-title">
+        <h2 id="push-title">push to remote</h2>
         <p>
-          Branches enable parallel development and feature isolation. The
-          <em>main</em> branch represents your production-ready code, while
-          feature branches allow safe experimentation.
+          Share your committed changes with the world by pushing to a remote repository:
+        </p>
+
+        <h3>push to a branch</h3>
+        <code>git push origin main</code>
+        <p>
+          Replace <em>main</em> with your branch name. On first push of a new branch,
+          use <code>-u</code> to set the upstream:
+        </p>
+        <code>git push -u origin feature/my-branch</code>
+
+        <h3>add a remote</h3>
+        <p>If you initialised locally with <code>git init</code>, connect to a remote first:</p>
+        <div class="code-examples">
+          <code>git remote add origin &lt;repository-url&gt;</code>
+          <p class="code-description">Link your local repo to a remote (e.g. GitHub)</p>
+
+          <code>git remote -v</code>
+          <p class="code-description">Verify your remotes are configured correctly</p>
+        </div>
+
+        <div class="pro-tip">
+          <h4>Before you push</h4>
+          <ul>
+            <li>Pull latest changes first: <code>git pull --rebase origin main</code></li>
+            <li>Run your tests — don't break the shared branch</li>
+            <li>Use descriptive branch names: <code>feature/user-auth</code>, <code>fix/login-crash</code></li>
+            <li>Push feature branches early — it backs up your work and enables early feedback</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Branching Section -->
+      <section id="branching" class="scrollblock block-branching" aria-labelledby="branching-title">
+        <h2 id="branching-title">branching</h2>
+        <p>
+          Branches are one of Git's killer features. They let you develop features,
+          fix bugs, and experiment in complete isolation — without touching
+          <em>main</em> until you're ready.
         </p>
 
         <img
           src="img/branches.png"
-          alt="Git branching diagram showing main branch with feature branches merging back"
+          alt="Git branching diagram showing the main branch with feature and bugfix branches merging back in"
           width="600"
           height="300"
+          loading="lazy"
         />
 
-        <h3>Essential Branching Commands</h3>
+        <h3>essential branch commands</h3>
         <div class="code-examples">
+          <code>git switch -c feature/new-feature</code>
+          <p class="code-description">Create and switch to a new branch (modern syntax)</p>
+
           <code>git checkout -b feature/new-feature</code>
-          <p class="code-description">Create and switch to a new branch</p>
+          <p class="code-description">Older equivalent — also creates and switches</p>
 
           <code>git branch</code>
-          <p class="code-description">List all local branches</p>
+          <p class="code-description">List all local branches (* marks the current one)</p>
 
-          <code>git checkout main</code>
-          <p class="code-description">Switch back to main branch</p>
+          <code>git branch -a</code>
+          <p class="code-description">List all branches including remote-tracking branches</p>
+
+          <code>git switch main</code>
+          <p class="code-description">Switch back to main</p>
 
           <code>git branch -d feature/new-feature</code>
-          <p class="code-description">Delete a branch (safe delete)</p>
+          <p class="code-description">Delete a fully merged branch (safe)</p>
+
+          <code>git branch -D feature/new-feature</code>
+          <p class="code-description">Force delete — even if unmerged (use with care)</p>
 
           <code>git push origin feature/new-feature</code>
-          <p class="code-description">Push branch to remote repository</p>
+          <p class="code-description">Push branch to remote for backup or code review</p>
         </div>
 
         <div class="best-practices">
-          <h4>🏆 Branching Best Practices:</h4>
+          <h4>Branching best practices</h4>
           <ul>
-            <li>
-              Use descriptive branch names: <code>feature/user-login</code>,
-              <code>bugfix/header-styling</code>
-            </li>
-            <li>Keep branches focused on single features or fixes</li>
-            <li>Regularly sync with main branch to avoid conflicts</li>
-            <li>Delete merged branches to keep repository clean</li>
+            <li>Name branches clearly: <code>feature/user-login</code>, <code>bugfix/header-overflow</code>, <code>hotfix/payment-null-check</code></li>
+            <li>Keep branches short-lived — big long-running branches are harder to merge</li>
+            <li>Regularly sync with <code>main</code> to minimise conflicts: <code>git merge main</code></li>
+            <li>Delete merged branches to keep your repo tidy</li>
+            <li>Protect your <code>main</code> branch — require PRs and passing CI before merging</li>
           </ul>
         </div>
       </section>
+
       <!-- Update and Merge Section -->
-      <section id="update" class="scrollblock block-merging">
-        <h2>Update and Merge Branches</h2>
+      <section id="update" class="scrollblock block-merging" aria-labelledby="update-title">
+        <h2 id="update-title">update &amp; merge</h2>
         <p>
-          Keep your code synchronized and integrate changes from different
-          branches:
+          Keep your branches in sync and integrate work from teammates:
         </p>
 
-        <h3>Updating Your Local Repository</h3>
-        <code>git pull</code>
-        <p>
-          Downloads and merges remote changes into your current branch. This
-          combines <code>git fetch</code> and <code>git merge</code>.
-        </p>
+        <h3>update your local repository</h3>
+        <div class="code-examples">
+          <code>git pull</code>
+          <p class="code-description">Fetch remote changes and merge into your current branch</p>
 
-        <h3>Merging Branches</h3>
+          <code>git fetch origin</code>
+          <p class="code-description">Download remote changes without merging — lets you inspect first</p>
+
+          <code>git pull --rebase origin main</code>
+          <p class="code-description">Replay your commits on top of the latest main (cleaner history)</p>
+        </div>
+
+        <h3>merging branches</h3>
         <code>git merge &lt;branch-name&gt;</code>
-        <p>Integrates changes from another branch into your current branch.</p>
+        <p>Integrates changes from another branch into your current one, preserving full history.</p>
 
-        <h3>Handling Merge Conflicts</h3>
+        <h3>resolving merge conflicts</h3>
         <p>
-          When Git can't automatically merge changes, you'll need to resolve
-          conflicts manually:
+          When Git can't automatically reconcile two sets of changes, it marks the conflict
+          in the file and asks you to resolve it manually:
         </p>
         <ol>
-          <li>Open conflicted files and resolve differences</li>
-          <li>Stage resolved files: <code>git add &lt;filename&gt;</code></li>
+          <li>Open the conflicted file — look for <code>&lt;&lt;&lt;&lt;&lt;&lt;&lt;</code> and <code>&gt;&gt;&gt;&gt;&gt;&gt;&gt;</code> markers</li>
+          <li>Edit the file to keep the correct content and remove the markers</li>
+          <li>Stage the resolved file: <code>git add &lt;filename&gt;</code></li>
           <li>Complete the merge: <code>git commit</code></li>
         </ol>
 
-        <h3>Preview Changes Before Merging</h3>
+        <h3>preview changes before merging</h3>
         <code>git diff main feature/new-feature</code>
         <p>
-          Compare differences between branches before merging to understand what
-          will change.
+          Always compare branches before merging so there are no surprises.
         </p>
 
         <div class="merge-tips">
-          <h4>🔄 Merge Strategy Tips:</h4>
+          <h4>Merge strategy tips</h4>
           <ul>
-            <li>Always test merged code before pushing to main</li>
-            <li>Use pull requests/merge requests for code review</li>
-            <li>Consider using <code>git rebase</code> for cleaner history</li>
-            <li>Communicate with team before major merges</li>
+            <li>Use <strong>pull requests</strong> for all merges into <code>main</code> — enables code review</li>
+            <li>Run your full test suite after merging — never skip CI</li>
+            <li>Prefer <code>git rebase</code> for local feature branches to keep history linear</li>
+            <li>Use <code>git merge --no-ff</code> to always create a merge commit (preserves branch history)</li>
+            <li>Communicate with teammates before merging large changes</li>
           </ul>
         </div>
       </section>
+
       <!-- Tagging Section -->
-      <section id="tagging" class="scrollblock block-tagging">
-        <h2>Git Tagging for Release Management</h2>
+      <section id="tagging" class="scrollblock block-tagging" aria-labelledby="tagging-title">
+        <h2 id="tagging-title">tagging releases</h2>
         <p>
-          Tags mark specific points in your Git history, typically used for
+          Tags are permanent labels on specific commits — the standard way to mark
           software releases and version milestones:
         </p>
 
-        <h3>Creating Tags</h3>
+        <h3>creating tags</h3>
         <div class="code-examples">
           <code>git tag v1.0.0</code>
-          <p class="code-description">
-            Create a lightweight tag at current commit
-          </p>
+          <p class="code-description">Lightweight tag at the current commit</p>
 
           <code>git tag -a v1.0.0 -m "Release version 1.0.0"</code>
-          <p class="code-description">Create an annotated tag with message</p>
+          <p class="code-description">Annotated tag with a message — recommended for releases</p>
 
-          <code>git tag v1.0.0 1b2e1d63ff</code>
-          <p class="code-description">
-            Tag a specific commit using commit hash
-          </p>
+          <code>git tag -a v1.0.0 1b2e1d63ff</code>
+          <p class="code-description">Tag a specific past commit using its hash</p>
         </div>
 
-        <h3>Managing Tags</h3>
+        <h3>managing and sharing tags</h3>
         <div class="code-examples">
           <code>git tag</code>
           <p class="code-description">List all tags</p>
 
+          <code>git show v1.0.0</code>
+          <p class="code-description">Show details about a tag and its commit</p>
+
           <code>git push origin v1.0.0</code>
-          <p class="code-description">Push specific tag to remote</p>
+          <p class="code-description">Push a specific tag to remote</p>
 
           <code>git push origin --tags</code>
-          <p class="code-description">Push all tags to remote</p>
+          <p class="code-description">Push all local tags to remote</p>
+
+          <code>git tag -d v1.0.0</code>
+          <p class="code-description">Delete a tag locally</p>
         </div>
 
-        <p>
-          <strong>Semantic Versioning:</strong> Use semantic versioning
-          (MAJOR.MINOR.PATCH) for clear version communication.
-        </p>
+        <div class="info-box">
+          <h4>Use Semantic Versioning</h4>
+          <p>
+            Follow <strong>MAJOR.MINOR.PATCH</strong> (e.g. <code>v2.1.3</code>):
+            bump MAJOR for breaking changes, MINOR for new backwards-compatible features,
+            PATCH for bug fixes. This communicates the impact of a release clearly.
+          </p>
+        </div>
       </section>
 
       <!-- Git Log Section -->
-      <section id="log" class="scrollblock block-log">
-        <h2>Git History and Logging</h2>
+      <section id="log" class="scrollblock block-log" aria-labelledby="log-title">
+        <h2 id="log-title">viewing history</h2>
         <p>
-          Explore your project's history and track changes with powerful Git log
-          commands:
+          Git's log commands let you explore your project's entire history,
+          understand what changed, and find specific commits:
         </p>
 
-        <h3>Basic Log Commands</h3>
+        <h3>basic log commands</h3>
         <div class="code-examples">
           <code>git log</code>
-          <p class="code-description">Show complete commit history</p>
+          <p class="code-description">Full commit history with author, date, and message</p>
 
           <code>git log --oneline</code>
-          <p class="code-description">Compact one-line format</p>
+          <p class="code-description">Compact one-line format — great for scanning history</p>
 
-          <code>git log --author="John Doe"</code>
-          <p class="code-description">Filter commits by author</p>
+          <code>git log --author="Jane Doe"</code>
+          <p class="code-description">Filter commits by a specific author</p>
 
           <code>git log --since="2 weeks ago"</code>
-          <p class="code-description">Show recent commits</p>
+          <p class="code-description">Show commits within a time range</p>
+
+          <code>git log --grep="fix"</code>
+          <p class="code-description">Search commit messages for a keyword</p>
         </div>
 
-        <h3>Advanced Log Visualization</h3>
+        <h3>visualise your branch graph</h3>
         <div class="code-examples">
           <code>git log --graph --oneline --decorate --all</code>
-          <p class="code-description">
-            ASCII art tree of all branches with decorations
-          </p>
+          <p class="code-description">ASCII art tree of all branches — see merges and divergences at a glance</p>
 
           <code>git log --name-status</code>
-          <p class="code-description">
-            Show which files changed in each commit
-          </p>
+          <p class="code-description">Show which files were added, modified, or deleted per commit</p>
 
           <code>git log --stat</code>
-          <p class="code-description">Show file change statistics</p>
+          <p class="code-description">Show insertion/deletion statistics per file per commit</p>
+
+          <code>git log -p &lt;filename&gt;</code>
+          <p class="code-description">Full diff history for a single file</p>
+
+          <code>git blame &lt;filename&gt;</code>
+          <p class="code-description">See who last modified each line of a file</p>
         </div>
 
-        <p>For complete documentation: <code>git log --help</code></p>
+        <p>For the full reference: <code>git log --help</code></p>
       </section>
+
       <!-- Replace Local Changes Section -->
-      <section id="checkout-replace" class="scrollblock block-checkout-replace">
-        <h2>Undo Changes and Reset Repository</h2>
+      <section id="checkout-replace" class="scrollblock block-checkout-replace" aria-labelledby="undo-title">
+        <h2 id="undo-title">undo changes</h2>
         <p>
-          Learn how to safely undo changes and reset your repository to previous
-          states:
+          Git gives you multiple ways to undo mistakes — choose the right tool
+          based on how far along the change has gone:
         </p>
 
-        <h3>Discard Local File Changes</h3>
-        <code>git checkout -- &lt;filename&gt;</code>
-        <p>
-          Restores file to last committed state. <strong>Warning:</strong> This
-          permanently discards unstaged changes.
-        </p>
-
-        <h3>Discard All Local Changes</h3>
-        <code>git reset --hard HEAD</code>
-        <p>Resets working directory and staging area to last commit.</p>
-
-        <h3>Reset to Remote State</h3>
+        <h3>discard unstaged changes</h3>
         <div class="code-examples">
-          <code>git fetch origin</code>
-          <code>git reset --hard origin/main</code>
-          <p class="code-description">
-            Completely sync with remote repository state
-          </p>
+          <code>git restore &lt;filename&gt;</code>
+          <p class="code-description">Discard changes in working directory (modern syntax)</p>
+
+          <code>git restore .</code>
+          <p class="code-description">Discard ALL unstaged changes — cannot be undone</p>
         </div>
 
-        <h3>Safe Alternatives</h3>
-        <div class="code-examples">
-          <code>git stash</code>
-          <p class="code-description">Temporarily save uncommitted changes</p>
+        <h3>unstage a file</h3>
+        <code>git restore --staged &lt;filename&gt;</code>
+        <p>Moves a file out of the staging area without losing your edits.</p>
 
-          <code>git stash pop</code>
-          <p class="code-description">Restore stashed changes</p>
+        <h3>undo commits</h3>
+        <div class="code-examples">
+          <code>git reset --soft HEAD~1</code>
+          <p class="code-description">Undo the last commit — keep changes staged and ready to re-commit</p>
+
+          <code>git reset HEAD~1</code>
+          <p class="code-description">Undo the last commit — unstage changes but keep them in working directory</p>
 
           <code>git revert &lt;commit-hash&gt;</code>
-          <p class="code-description">
-            Create new commit that undoes previous commit
-          </p>
+          <p class="code-description">Create a new commit that undoes a past commit — safe for shared branches</p>
+        </div>
+
+        <h3>temporarily save work with stash</h3>
+        <div class="code-examples">
+          <code>git stash</code>
+          <p class="code-description">Shelve uncommitted changes to a temporary stack</p>
+
+          <code>git stash pop</code>
+          <p class="code-description">Restore and remove the most recent stash</p>
+
+          <code>git stash list</code>
+          <p class="code-description">See all stashed changesets</p>
+
+          <code>git stash apply stash@{2}</code>
+          <p class="code-description">Apply a specific stash without removing it</p>
         </div>
 
         <div class="warning">
-          <h4>⚠️ Important Safety Tips:</h4>
+          <h4>Safety checklist before resetting</h4>
           <ul>
-            <li>Always commit or stash important changes before resetting</li>
-            <li>Use <code>git status</code> to check what will be lost</li>
-            <li>
-              Consider <code>git revert</code> instead of
-              <code>git reset</code> for shared repositories
-            </li>
+            <li>Run <code>git status</code> and <code>git diff</code> to understand what will be lost</li>
+            <li><code>git reset --hard</code> permanently discards uncommitted changes — there is no undo</li>
+            <li>Prefer <code>git revert</code> over <code>git reset</code> on any branch shared with others</li>
+            <li>When in doubt, create a backup branch first: <code>git branch backup/my-work</code></li>
           </ul>
         </div>
       </section>
+
       <!-- Useful Hints Section -->
-      <section id="hints" class="scrollblock block-hints">
-        <h2>Advanced Git Tips and Configuration</h2>
+      <section id="hints" class="scrollblock block-hints" aria-labelledby="hints-title">
+        <h2 id="hints-title">advanced tips</h2>
         <p>
-          Enhance your Git experience with these productivity tips and
-          configuration options:
+          Level up your daily Git workflow with these productivity commands and configuration tricks:
         </p>
 
-        <h3>Git GUI Tools</h3>
-        <code>gitk</code>
-        <p>
-          Launch built-in graphical repository browser for visual commit
-          history.
-        </p>
-
-        <h3>Essential Git Configuration</h3>
+        <h3>essential configuration</h3>
         <div class="code-examples">
-          <code>git config --global user.name "Your Name"</code>
-          <code>git config --global user.email "your.email@example.com"</code>
-          <p class="code-description">Set your Git identity for commits</p>
-
           <code>git config --global color.ui auto</code>
-          <p class="code-description">
-            Enable colorful Git output for better readability
-          </p>
+          <p class="code-description">Coloured output — makes reading diffs and status much easier</p>
 
           <code>git config --global core.editor "code --wait"</code>
-          <p class="code-description">Set VS Code as default Git editor</p>
+          <p class="code-description">Set VS Code as your default Git editor</p>
 
-          <code>git config --global init.defaultBranch main</code>
-          <p class="code-description">Set 'main' as default branch name</p>
+          <code>git config --global pull.rebase true</code>
+          <p class="code-description">Rebase instead of merge on pull — keeps history linear by default</p>
+
+          <code>git config --global rerere.enabled true</code>
+          <p class="code-description">Remember resolved merge conflicts and reapply them automatically</p>
         </div>
 
-        <h3>Productivity Commands</h3>
+        <h3>time-saving aliases</h3>
         <div class="code-examples">
-          <code>git add -i</code>
-          <p class="code-description">
-            Interactive staging for precise change selection
-          </p>
-
-          <code>git commit -am "Message"</code>
-          <p class="code-description">
-            Stage and commit all tracked files in one command
-          </p>
-
-          <code>git status -s</code>
-          <p class="code-description">Short status format for quick overview</p>
-        </div>
-
-        <h3>Useful Aliases</h3>
-        <div class="code-examples">
-          <code>git config --global alias.st status</code>
+          <code>git config --global alias.st "status -s"</code>
           <code>git config --global alias.co checkout</code>
-          <code>git config --global alias.br branch</code>
-          <p class="code-description">Create shortcuts for common commands</p>
+          <code>git config --global alias.br "branch -a"</code>
+          <code>git config --global alias.last "log -1 HEAD --stat"</code>
+          <code>git config --global alias.lg "log --oneline --graph --decorate --all"</code>
+          <p class="code-description">After setting aliases, use <code>git lg</code>, <code>git st</code>, etc.</p>
+        </div>
+
+        <h3>powerful one-liners</h3>
+        <div class="code-examples">
+          <code>git commit -am "Quick fix"</code>
+          <p class="code-description">Stage all tracked files and commit in one command</p>
+
+          <code>git cherry-pick &lt;commit-hash&gt;</code>
+          <p class="code-description">Apply a single commit from another branch onto your current branch</p>
+
+          <code>git bisect start</code>
+          <p class="code-description">Begin a binary search through history to find which commit introduced a bug</p>
+
+          <code>git shortlog -sn</code>
+          <p class="code-description">Summarise commits per author — useful for team reporting</p>
+
+          <code>git clean -fd</code>
+          <p class="code-description">Remove all untracked files and directories (irreversible — use with caution)</p>
+        </div>
+
+        <h3>git gui tools</h3>
+        <code>gitk --all</code>
+        <p>
+          Built-in graphical history browser. Pairs well with GUI clients like
+          GitKraken, Sourcetree, or the VS Code Git extension for visual diffs.
+        </p>
+      </section>
+
+      <!-- FAQ Section -->
+      <section id="faq" class="scrollblock block-faq" aria-labelledby="faq-title">
+        <h2 id="faq-title">frequently asked questions</h2>
+        <p>Answers to the questions every developer eventually Googles.</p>
+
+        <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+          <h3 itemprop="name">What is the difference between Git and GitHub?</h3>
+          <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text">
+              <strong>Git</strong> is the version control tool that runs on your local machine —
+              it tracks file history, manages branches, and handles merges.
+              <strong>GitHub</strong> is a cloud platform that hosts Git repositories online and
+              adds collaboration features: pull requests, issues, code review, CI/CD, and more.
+              You can use Git without GitHub, but GitHub requires Git.
+              GitLab and Bitbucket are popular alternatives to GitHub.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+          <h3 itemprop="name">What is the difference between <code>git pull</code> and <code>git fetch</code>?</h3>
+          <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text">
+              <code>git fetch</code> downloads new commits and branches from the remote but does
+              <strong>not</strong> touch your working directory or current branch — it's safe and
+              non-destructive. <code>git pull</code> is <code>git fetch</code> followed by
+              <code>git merge</code> (or <code>git rebase</code> if configured). Use <code>fetch</code>
+              when you want to inspect what changed before integrating it.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+          <h3 itemprop="name">How do I undo my last commit without losing my changes?</h3>
+          <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text">
+              Run <code>git reset --soft HEAD~1</code> — this undoes the commit but leaves your
+              changes staged and ready to re-commit. Use <code>git reset HEAD~1</code> (mixed mode)
+              to unstage the changes but keep them in your working directory.
+              Only use <code>git reset --hard HEAD~1</code> if you want to <em>permanently discard</em> the changes.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+          <h3 itemprop="name">Should I use <code>git merge</code> or <code>git rebase</code>?</h3>
+          <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text">
+              Use <strong>merge</strong> for integrating finished branches into <code>main</code> —
+              it preserves the complete history and makes collaboration auditable.
+              Use <strong>rebase</strong> to keep your local feature branch up-to-date with <code>main</code>
+              before merging — it produces a clean, linear history without noisy merge commits.
+              The golden rule: <strong>never rebase commits that have already been pushed to a shared branch</strong>.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+          <h3 itemprop="name">What is a pull request (PR)?</h3>
+          <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text">
+              A <strong>pull request</strong> is a feature of GitHub, GitLab (called Merge Request),
+              and Bitbucket. It's a formal proposal to merge one branch into another, providing a
+              structured space for teammates to review your code, leave comments, suggest changes,
+              and run automated checks — before anything lands in <code>main</code>. PRs are the
+              backbone of professional collaborative development.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+          <h3 itemprop="name">How do I fix a detached HEAD state?</h3>
+          <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text">
+              A detached HEAD means you've checked out a specific commit rather than a branch —
+              any commits you make won't belong to any branch and can be lost. To save your work,
+              create a branch from this point: <code>git switch -c my-rescue-branch</code>.
+              To simply get back to where you were: <code>git switch main</code>.
+            </p>
+          </div>
         </div>
       </section>
+
       <!-- Resources Section -->
-      <section id="resources" class="scrollblock block-resources">
-        <h2>Git Resources and Tools</h2>
-        <p>Expand your Git knowledge with these curated resources and tools:</p>
+      <section id="resources" class="scrollblock block-resources" aria-labelledby="resources-title">
+        <h2 id="resources-title">resources &amp; tools</h2>
+        <p>Go deeper with these carefully curated tools, references, and interactive guides:</p>
 
-        <h3>Recommended Git GUI Clients</h3>
+        <h3>recommended git GUI clients</h3>
         <ul>
           <li>
-            <a href="https://gitx.laullon.com/" rel="noopener" target="_blank"
-              >GitX (L)</a
-            >
-            - macOS, open source
+            <a href="https://desktop.github.com/" rel="noopener noreferrer" target="_blank">GitHub Desktop</a>
+            — cross-platform, free, beginner-friendly
           </li>
           <li>
-            <a href="https://www.git-tower.com/" rel="noopener" target="_blank"
-              >Tower</a
-            >
-            - macOS & Windows, professional Git client
+            <a href="https://www.gitkraken.com/" rel="noopener noreferrer" target="_blank">GitKraken</a>
+            — powerful cross-platform Git GUI with visual graph
           </li>
           <li>
-            <a
-              href="https://www.sourcetreeapp.com/"
-              rel="noopener"
-              target="_blank"
-              >Sourcetree</a
-            >
-            - macOS & Windows, free by Atlassian
+            <a href="https://www.sourcetreeapp.com/" rel="noopener noreferrer" target="_blank">Sourcetree</a>
+            — macOS &amp; Windows, free by Atlassian
           </li>
           <li>
-            <a href="https://desktop.github.com/" rel="noopener" target="_blank"
-              >GitHub Desktop</a
-            >
-            - Cross-platform, free
+            <a href="https://www.git-tower.com/" rel="noopener noreferrer" target="_blank">Tower</a>
+            — macOS &amp; Windows, polished professional client
           </li>
           <li>
-            <a href="https://www.gitkraken.com/" rel="noopener" target="_blank"
-              >GitKraken</a
-            >
-            - Cross-platform Git GUI
+            <a href="https://gitx.laullon.com/" rel="noopener noreferrer" target="_blank">GitX (L)</a>
+            — macOS, open source
           </li>
         </ul>
 
-        <h3>Essential Git Learning Resources</h3>
+        <h3>essential learning resources</h3>
         <ul>
           <li>
-            <a href="https://git-scm.com/book" rel="noopener" target="_blank"
-              >Pro Git Book</a
-            >
-            - Official comprehensive guide
+            <a href="https://git-scm.com/book" rel="noopener noreferrer" target="_blank">Pro Git Book</a>
+            — the official comprehensive guide, free online
           </li>
           <li>
-            <a
-              href="https://learngitbranching.js.org/"
-              rel="noopener"
-              target="_blank"
-              >Learn Git Branching</a
-            >
-            - Interactive visual tutorial
+            <a href="https://learngitbranching.js.org/" rel="noopener noreferrer" target="_blank">Learn Git Branching</a>
+            — the best interactive visual tutorial
           </li>
           <li>
-            <a
-              href="https://think-like-a-git.net/"
-              rel="noopener"
-              target="_blank"
-              >Think Like a Git</a
-            >
-            - Conceptual understanding
+            <a href="https://ohshitgit.com/" rel="noopener noreferrer" target="_blank">Oh Shit, Git!?!</a>
+            — plain-English fixes for common Git mistakes
           </li>
           <li>
-            <a href="https://docs.github.com/" rel="noopener" target="_blank"
-              >GitHub Documentation</a
-            >
-            - Platform-specific guides
+            <a href="https://www.atlassian.com/git/tutorials" rel="noopener noreferrer" target="_blank">Atlassian Git Tutorials</a>
+            — comprehensive workflow and concept guides
           </li>
           <li>
-            <a
-              href="https://marklodato.github.io/visual-git-guide/index-en.html"
-              rel="noopener"
-              target="_blank"
-              >Visual Git Guide</a
-            >
-            - Diagram-based learning
+            <a href="https://marklodato.github.io/visual-git-guide/index-en.html" rel="noopener noreferrer" target="_blank">Visual Git Guide</a>
+            — diagram-based explanations of core commands
           </li>
           <li>
-            <a
-              href="https://www.atlassian.com/git/tutorials"
-              rel="noopener"
-              target="_blank"
-              >Atlassian Git Tutorials</a
-            >
-            - Comprehensive workflow guides
+            <a href="https://docs.github.com/" rel="noopener noreferrer" target="_blank">GitHub Docs</a>
+            — platform-specific guides, Actions, and API reference
+          </li>
+          <li>
+            <a href="https://git-scm.com/docs" rel="noopener noreferrer" target="_blank">Official Git Reference</a>
+            — complete command documentation
           </li>
         </ul>
 
-        <h3>Advanced Topics to Explore</h3>
+        <h3>advanced topics to explore next</h3>
         <ul>
-          <li>
-            <strong>Git Workflows:</strong> GitFlow, GitHub Flow, GitLab Flow
-          </li>
-          <li>
-            <strong>Git Hooks:</strong> Automate tasks with pre-commit,
-            post-merge hooks
-          </li>
-          <li>
-            <strong>Git Submodules:</strong> Manage dependencies and nested
-            repositories
-          </li>
-          <li>
-            <strong>Git LFS:</strong> Large File Storage for binary assets
-          </li>
-          <li>
-            <strong>Continuous Integration:</strong> Integrate Git with CI/CD
-            pipelines
-          </li>
+          <li><strong>Git Workflows:</strong> GitFlow, GitHub Flow, trunk-based development</li>
+          <li><strong>Git Hooks:</strong> automate quality checks with pre-commit, commit-msg, pre-push hooks</li>
+          <li><strong>Interactive Rebase:</strong> <code>git rebase -i</code> to squash, reorder, and edit commits</li>
+          <li><strong>Git Submodules &amp; Subtrees:</strong> manage nested repositories and shared libraries</li>
+          <li><strong>Git LFS:</strong> Large File Storage for assets, binaries, and ML model files</li>
+          <li><strong>Signed Commits:</strong> GPG-sign commits to verify authorship in open source</li>
+          <li><strong>CI/CD Integration:</strong> trigger deployments and automated tests on every push</li>
         </ul>
       </section>
+
     </main>
 
     <!-- Table of Contents for easy navigation -->
     <nav class="table-of-contents" aria-label="Page navigation">
-      <h3>Quick Navigation</h3>
+      <h3>Quick Nav</h3>
       <ul>
-        <li><a href="#setup">Git Installation</a></li>
-        <li><a href="#create">Create Repository</a></li>
-        <li><a href="#checkout">Clone Repository</a></li>
-        <li><a href="#trees">Git Workflow</a></li>
-        <li><a href="#add">Stage & Commit</a></li>
-        <li><a href="#push">Push Changes</a></li>
+        <li><a href="#whatsgit">What is Git?</a></li>
+        <li><a href="#setup">Installation</a></li>
+        <li><a href="#create">Create Repo</a></li>
+        <li><a href="#gitignore">.gitignore</a></li>
+        <li><a href="#checkout">Clone</a></li>
+        <li><a href="#trees">3 Trees</a></li>
+        <li><a href="#add">Stage &amp; Commit</a></li>
+        <li><a href="#push">Push</a></li>
         <li><a href="#branching">Branching</a></li>
-        <li><a href="#update">Update & Merge</a></li>
+        <li><a href="#update">Merge</a></li>
         <li><a href="#tagging">Tagging</a></li>
-        <li><a href="#log">Git History</a></li>
-        <li><a href="#checkout-replace">Undo Changes</a></li>
+        <li><a href="#log">History</a></li>
+        <li><a href="#checkout-replace">Undo</a></li>
         <li><a href="#hints">Advanced Tips</a></li>
+        <li><a href="#faq">FAQ</a></li>
         <li><a href="#resources">Resources</a></li>
       </ul>
     </nav>
@@ -786,23 +1113,13 @@
     <!-- Footer -->
     <footer role="contentinfo">
       <p>
-        &copy; 2025
-        <a
-          href="https://github.com/Muzammil-Bilwani"
-          rel="noopener"
-          target="_blank"
-          >Muzammil Bilwani</a
-        >. This Git tutorial is open source and available on
-        <a
-          href="https://github.com/Muzammil-Bilwani/git-goahead"
-          rel="noopener"
-          target="_blank"
-          >GitHub</a
-        >.
+        &copy; 2026
+        <a href="https://muzammilbilwani.com" rel="noopener noreferrer" target="_blank">Muzammil Bilwani</a>.
+        This Git tutorial is open source and available on
+        <a href="https://github.com/Muzammil-Bilwani/git-goahead" rel="noopener noreferrer" target="_blank">GitHub</a>.
       </p>
       <p>
-        Help improve this tutorial by contributing or reporting issues. Happy
-        coding! 🚀
+        Found an error or want to add something? Contributions and issues are welcome. Happy committing! 🚀
       </p>
     </footer>
   </body>
